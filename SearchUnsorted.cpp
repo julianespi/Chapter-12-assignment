@@ -67,13 +67,6 @@ public:
     // Postcondition: return the index an element in the array
     int binarySearch(string arr[], int l, int r, string x)
     {
-        for (int i = 1; i <= SIZE; i++)
-        {
-            cout << arr[i - 1] << " ";
-            if (i % 15 == 0)
-                cout << "\n\t";
-        }
-
         while (l <= r) {
             int m = l + (r - l) / 2;
 
